@@ -521,5 +521,5 @@ app.post("/log-expense", async (req, res) => {
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
-  console.log("Neo POS running on http://localhost:3000");
+  console.log(`Neo POS running on port ${PORT}`);
 });
